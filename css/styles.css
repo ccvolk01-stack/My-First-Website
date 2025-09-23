@@ -23,7 +23,7 @@ body {
     margin-left: 150px;
     margin-right: 300px;
 }
-div > .sideBarText {
+.sideBarText {
     font-size: 15px;
     text-align: center;
     margin-left: 800px;
