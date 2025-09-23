@@ -2,6 +2,9 @@ h1 {
     font-size: 65px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    -webkit-text-stroke: 4px black;
+    -webkit-text-stroke: 3px black;
     color: rgb(212, 18, 18);
+}
+titleImage {
+    text-align: center;
 }
