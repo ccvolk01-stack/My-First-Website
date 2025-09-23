@@ -8,6 +8,7 @@ h1 {
 .titleImage {
     display: block;
     margin: auto;
+    margin-bottom: 100px;
     width: 600px;
     height: auto;
 }
