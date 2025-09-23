@@ -8,6 +8,8 @@ h1 {
 .titleImage {
     display: block;
     margin: auto;
+    width: 400px;
+    height: auto;
 }
 body {
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/848079540097334989/4CA855E4822031581153AB5E429DEE26959DE1DD/);
