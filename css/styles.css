@@ -15,3 +15,9 @@ h1 {
 body {
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/848079540097334989/4CA855E4822031581153AB5E429DEE26959DE1DD/);
 }
+.IntroText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+}
