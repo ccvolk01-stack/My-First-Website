@@ -6,7 +6,8 @@ h1 {
     color: rgb(212, 18, 18);
 }
 .titleImage {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 body {
     background-image: url(://steamuserimages-a.akamaihd.net/ugc/848079540097334989/4CA855E4822031581153AB5E429DEE26959DE1DD/);
