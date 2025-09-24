@@ -49,6 +49,8 @@ h2 {
     margin-right: 300px;
 }
 .danceGif {
-    width: 100px;
+    width: 250px;
     height: auto;
+    float: right;
+    margin-right: 50px;
 }
