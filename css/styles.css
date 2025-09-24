@@ -20,7 +20,7 @@ body {
     font-size: 20px;
     text-align: center;
     background-color: rgb(226, 222, 159);
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: 300px;
 }
 .sideBarText {
@@ -36,5 +36,5 @@ body {
     display: inline;
 }
 .exampleMarkSheet {
-    margin-left: 1000px;
+    margin-left: 1200px;
 }
