@@ -26,12 +26,12 @@ body {
 .sideBarText {
     font-size: 15px;
     text-align: center;
-    margin-left: 800px;
-    margin-right: 100px;
+    margin-left: 1000px;
+    display: inline;
 }
 .sideBarTextTitle {
     font-size: 25px;
     text-align: center;
-    margin-left: 800px;
-    margin-right: 100px;
+    margin-left: 1000px;
+    display: inline;
 }
