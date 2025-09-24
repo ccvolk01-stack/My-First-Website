@@ -50,7 +50,7 @@ h2 {
 }
 .danceGif {
     width: 250px;
-    height: auto;
-    float: right;
-    margin-right: 50px;
+}
+.dancediv {
+    max-width: 100%;
 }
