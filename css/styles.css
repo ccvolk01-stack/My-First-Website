@@ -23,17 +23,19 @@ body {
 .sideBarText {
     font-size: 15px;
     text-align: center;
-    margin-left: 1100px;
+    float: right;
     display: inline;
 }
 .sideBarTextTitle {
     font-size: 25px;
     text-align: center;
-    margin-left: 1150px;
+    float: right;
     display: inline;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 .exampleMarkSheet {
-    margin-left: 1200px;
+    float: right;
 }
 .container {
     display: flex;
@@ -50,8 +52,8 @@ h2 {
 }
 .danceGif {
     width: 300px;
-    margin-bottom: 50px;
-    margin-right: 50;
+    margin-bottom: 10px;
+    margin-right: 50px;
 }
 .dancediv {
     max-width: 100%;
