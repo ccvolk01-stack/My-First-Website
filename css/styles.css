@@ -18,12 +18,7 @@ body {
     height: 100vh;
 }
 .IntroText {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(226, 222, 159);
-    margin-left: 100px;
-    margin-right: 300px;
+    padding-right: 20px;
 }
 .sideBarText {
     font-size: 15px;
@@ -40,6 +35,19 @@ body {
 .exampleMarkSheet {
     margin-left: 1200px;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(226, 222, 159);
+    margin-left: 100px;
+    margin-right: 300px;
+}
 .danceGif {
-    display: inline;
+    max-width: 100%;
 }
