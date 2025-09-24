@@ -13,7 +13,7 @@ h1 {
     height: auto;
 }
 body {
-    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/848079540097334989/4CA855E4822031581153AB5E429DEE26959DE1DD/);
+    background: url(https://steamuserimages-a.akamaihd.net/ugc/848079540097334989/4CA855E4822031581153AB5E429DEE26959DE1DD/);
     background-size: contain;
     height: 100vh;
 }
