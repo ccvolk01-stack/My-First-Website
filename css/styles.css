@@ -79,3 +79,7 @@ h2 {
     border: 1;
     background-color: white;
 }
+.characterImage {
+    height: auto;
+    width: 70px;
+}
