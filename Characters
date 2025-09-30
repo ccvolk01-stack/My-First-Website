@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="css/styles.css">   
+    </head>
+<body>
+    <div class="characterText">Here are all the normal characters in The Binding of Isaac</div>
+        <ol>
+            <li>Isaac</li>
+            <li>Magdalene</li>
+            <li>Cain</li>
+            <li>Judas</li>
+            <li>??? (Blue Baby)</li>
+            <li>Eve</li>
+            <li>Samson</li>
+            <li>Azazel</li>
+            <li>Lazarus</li>
+            <li>Eden</li>
+            <li>The Lost</li>
+            <li>Lilith</li>
+            <li>Keeper</li>
+            <li>Apollyon</li>
+            <li>The Forgotten</li>
+            <li>Bethany</li>
+            <li>Jacob and Esau</li>
+        </ol>
+    <div class="characterText">Here are all the tainted characters in The Binding of Isaac</div>
+        <ol>
+            <li>Tainted Isaac</li>
+            <li>Tainted Magdalene</li>
+            <li>Tainted Cain</li>
+            <li>Tainted Judas</li>
+            <li>Tainted ??? (Blue Baby)</li>
+            <li>Tainted Eve</li>
+            <li>Tainted Samson</li>
+            <li>Tainted Azazel</li>
+            <li>Tainted Lazarus</li>
+            <li>Tainted Eden</li>
+            <li>Tainted Lost</li>
+            <li>Tainted Lilith</li>
+            <li>Tainted Keeper</li>
+            <li>Tainted Apollyon</li>
+            <li>Tainted The Forgotten</li>
+            <li>Tainted Bethany</li>
+            <li>Tainted Jacob and Esau</li>
+        </ol>
+</body>
