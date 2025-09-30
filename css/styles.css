@@ -52,6 +52,13 @@ h2 {
     color: white;
     text-align: center;
 }
+.pageLinks > a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
 .characterText {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
