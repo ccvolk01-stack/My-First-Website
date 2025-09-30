@@ -69,3 +69,9 @@ h2 {
     font-size: 40px;
     color: red;
 }
+individualCharacterText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
