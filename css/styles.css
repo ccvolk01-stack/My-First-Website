@@ -86,3 +86,6 @@ table, th, tr, td {
     height: auto;
     width: 240px;
 }
+div {
+    align-content: center;
+}
