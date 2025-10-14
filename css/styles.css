@@ -82,6 +82,7 @@ table, th, tr, td {
     background-color: white;
 }
 .characterImage {
+    align-items: center;
     height: auto;
     width: 240px;
 }
