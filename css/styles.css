@@ -78,14 +78,11 @@ h2 {
     margin-right: 100px;
 }
 table, th, tr, td {
-    border: 1px black;
+    border: 1px,black;
     background-color: white;
 }
 .characterImage {
-    align-items: center;
+    text-align: center;
     height: auto;
     width: 240px;
-}
-div {
-    align-content: center;
 }
