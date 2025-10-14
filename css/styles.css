@@ -65,7 +65,7 @@ h2 {
     color: white;
     text-align: center;
 }
-.characterText > ol {
+.characterText > ol > li {
     font-size: 40px;
     color: red;
 }
@@ -73,7 +73,7 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
 }
 table, th, tr, td {
     border: 1px black;
@@ -81,5 +81,5 @@ table, th, tr, td {
 }
 .characterImage {
     height: auto;
-    width: 70px;
+    width: 180px;
 }
