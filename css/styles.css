@@ -78,6 +78,7 @@ h2 {
     margin-right: 400px;
 }
 table, th, tr, td {
+    text-align: center;
     border: 1px,black;
     background-color: white;
 }
@@ -86,4 +87,7 @@ table, th, tr, td {
     margin: auto;
     height: auto;
     width: 240px;
+}
+.characterTable {
+    text-align: center;
 }
