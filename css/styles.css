@@ -66,7 +66,7 @@ h2 {
     color: white;
     text-align: center;
 }
-div.characterText > ol {
+ol {
     font-size: 40px;
     color: red;
     text-align: left;
