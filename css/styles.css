@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Background and Fonts */
+
 body {
   background: radial-gradient(circle at center, #2a1b1b 0%, #0d0b0b 100%);
   color: #f0d7b5;
@@ -13,9 +13,9 @@ body {
   text-align: center;
   line-height: 1.6;
   padding: 20px;
+  font-family: 'Press Start 2P', cursive; 
 }
 
-/* Header */
 header {
   margin-bottom: 20px;
 }
@@ -32,7 +32,7 @@ h1 {
   filter: drop-shadow(0 0 10px #000);
 }
 
-/* Intro Section */
+
 .IntroText {
   max-width: 800px;
   margin: 30px auto;
@@ -48,7 +48,6 @@ h1 {
   color: #f7e3c0;
 }
 
-/* Links Section */
 .container {
   display: flex;
   justify-content: space-around;
@@ -86,7 +85,7 @@ h1 {
   transform: scale(1.05);
 }
 
-/* Dance Image */
+
 .danceDiv {
   margin-top: 20px;
 }
@@ -103,7 +102,7 @@ h1 {
   50% { transform: translateY(-10px); }
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
