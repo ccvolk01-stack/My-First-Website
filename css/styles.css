@@ -53,7 +53,7 @@ h2 {
     color: white;
     text-align: center;
 }
-.pageLinks > a {
+.pageLinks > .links {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     background-color: gray;
