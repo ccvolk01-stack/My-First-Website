@@ -511,7 +511,6 @@ button:hover {
   font-size: 0.7rem;
   margin-top: 15px;
   text-shadow: 1px 1px 3px #000;
-  transition: color 0.3s ease;
 }
 
 .info-link-box:hover .info-gif {
