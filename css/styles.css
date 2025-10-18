@@ -31,10 +31,7 @@ h2 {
     text-align: center;
     background: url(https://drive.google.com/file/d/1wsZtt4ml-nASqNydUTgxI-Zc_Xuc2im-/view?usp=drive_link);
     background-size: contain;
-    height: 100vh;
-    margin-left: 100px;
-    margin-right: 200px;
-    margin-right: 100px;
+    margin: auto;
 }
 .danceGif {
     width: 250px;
