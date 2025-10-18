@@ -64,11 +64,13 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     color: white;
-    margin: auto;
+    text-align: center;
 }
-div.characterText > ol > li {
+div.characterText > ol {
     font-size: 40px;
     color: red;
+    text-align: left;
+    display: inline-block;
 }
 .individualCharacterText {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
