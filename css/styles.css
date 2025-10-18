@@ -29,7 +29,7 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     text-align: center;
-    background: url(https://drive.google.com/file/d/1wsZtt4ml-nASqNydUTgxI-Zc_Xuc2im-/view?usp=drive_link);
+    background-color: brown;
     background-size: contain;
     margin: auto;
 }
@@ -47,7 +47,7 @@ h2 {
 .pageLinks {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    background-color: gray;
+    background-color: brown;
     color: white;
     text-align: center;
 }
