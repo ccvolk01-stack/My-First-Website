@@ -426,6 +426,10 @@ button:hover {
   flex-direction: row;
 }
 
+.boss-container.right {
+  flex-direction: row-reverse;
+}
+
 .boss-img {
   width: 200px;
   height: auto;
