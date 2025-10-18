@@ -31,7 +31,9 @@ h2 {
     text-align: center;
     background-color: brown;
     background-size: contain;
-    margin: auto;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 .danceGif {
     width: 250px;
