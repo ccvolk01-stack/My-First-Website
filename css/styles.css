@@ -9,7 +9,6 @@
 body {
   background: radial-gradient(circle at center, #2a1b1b 0%, #0d0b0b 100%);
   color: #f0d7b5;
-  font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   line-height: 1.6;
   padding: 20px;
@@ -117,7 +116,7 @@ h1 {
   }
 }
 .characterText {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Press Start 2P', cursive; 
     font-size: 50px;
     color: white;
     margin: auto;
