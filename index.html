@@ -27,6 +27,44 @@
         <a href="bosses.html">Bosses</a>
       </div>
     </nav>
+ 
+    <div class="completionTracker">
+        <h2>Track Your Completion Marks</h2>
+        <p>Enter how many completion marks you’ve earned so far (out of 34):</p>
+        <form id="completionForm">
+            <input type="number" id="marksInput" min="0" max="34" placeholder="0–34" required>
+            <button type="submit">Check Progress</button>
+        </form>
+        <div id="resultMessage" class="resultMessage"></div>
+    </div>
+
+    <script>
+        document.getElementById('completionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const totalMarks = 34;
+            const input = document.getElementById('marksInput').value;
+            const resultDiv = document.getElementById('resultMessage');
+
+            const marks = parseInt(input);
+
+            if (isNaN(marks) || marks < 0 || marks > totalMarks) {
+                resultDiv.textContent = "Please enter a number between 0 and 34.";
+                resultDiv.style.color = "#ff6666";
+                return;
+            }
+
+            const remaining = totalMarks - marks;
+
+            if (remaining === 0) {
+                resultDiv.innerHTML = "🎉 Congratulations! You’ve completed all 34 marks!";
+                resultDiv.style.color = "#f7e3c0";
+            } else {
+                resultDiv.innerHTML = `You have <strong>${remaining}</strong> completion mark${remaining > 1 ? "s" : ""} left to earn. Keep going!`;
+                resultDiv.style.color = "#f7c98b";
+            }
+        });
+    </script>
 
     <div class="danceDiv">
       <img src="https://static.wikia.nocookie.net/f76ea375-57a8-46de-8781-e00b16e8e7bd" alt="Isaac dancing" class="danceGif">

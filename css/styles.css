@@ -190,6 +190,77 @@ h1 {
   text-shadow: 0 0 5px #ffb347;
   transform: scale(1.05);
 }
+
+.completionTracker {
+  background-color: rgba(30, 20, 20, 0.8);
+  border: 2px solid #3d2b2b;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 40px auto;
+  max-width: 500px;
+  box-shadow: 0 0 15px #000;
+  text-align: center;
+}
+
+.completionTracker h2 {
+  color: #f7e3c0;
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 10px;
+}
+
+.completionTracker p {
+  color: #f0d7b5;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+#completionForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#marksInput {
+  width: 80px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #5c3d3d;
+  border-radius: 6px;
+  background-color: #1b1212;
+  color: #f7e3c0;
+  text-align: center;
+}
+
+#marksInput:focus {
+  outline: none;
+  box-shadow: 0 0 8px #ffb347;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: rgba(70, 40, 40, 0.9);
+  color: #f7c98b;
+  border: 1px solid #5c3d3d;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(90, 50, 50, 0.95);
+  color: #fff;
+  text-shadow: 0 0 5px #ffb347;
+  transform: scale(1.05);
+}
+
+.resultMessage {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
 .characterImage {
     display: block;
     margin: auto;
