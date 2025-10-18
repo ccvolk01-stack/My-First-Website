@@ -406,7 +406,7 @@ button:hover {
 .boss-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 50px auto;
   max-width: 900px;
   gap: 40px;
@@ -422,7 +422,7 @@ button:hover {
   transform: scale(1.02);
 }
 
-/* Alternate directions */
+/* --- FORCE LAYOUT ALTERNATION --- */
 .boss-container.left {
   flex-direction: row;
 }
@@ -431,7 +431,7 @@ button:hover {
   flex-direction: row-reverse;
 }
 
-/* Boss image styling */
+/* --- IMAGE STYLE --- */
 .boss-img {
   width: 200px;
   height: auto;
@@ -439,7 +439,7 @@ button:hover {
   filter: drop-shadow(0 0 10px #b97a56);
 }
 
-/* Pulse animation */
+/* --- PULSE ANIMATION --- */
 @keyframes pulse {
   0%, 100% {
     transform: scale(1);
@@ -455,7 +455,7 @@ button:hover {
   animation: pulse 2s infinite;
 }
 
-/* Boss text */
+/* --- TEXT STYLE --- */
 .boss-text {
   font-size: 0.7rem;
   line-height: 1.8;
@@ -464,7 +464,7 @@ button:hover {
   color: #f0d7b5;
 }
 
-/* Responsive adjustments */
+/* --- RESPONSIVE (MOBILE) FIX --- */
 @media (max-width: 700px) {
   .boss-container {
     flex-direction: column !important;
