@@ -64,7 +64,7 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     color: white;
-    text-align: center;
+    margin: auto;
 }
 div.characterText > ol > li {
     font-size: 40px;
