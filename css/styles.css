@@ -333,8 +333,7 @@ button:hover {
   margin: 40px 0;
 }
 
-.characterStats h2,
-.NotableUnlocks h2 {
+.characterStats h2,.NotableUnlocks h2 {
   color: #f7c98b;
   text-shadow: 2px 2px 4px #000;
   margin-bottom: 15px;
